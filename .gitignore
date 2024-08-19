@@ -1,64 +1,93 @@
-# Logs
-logs
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Diretórios do Sistema Operacional
-.DS_Store
-Thumbs.db
+# Dependências
+/node_modules
+/.pnp
+.pnp.js
 
-# Node modules
-node_modules/
-.babelrc
+# Compilação e output
+/dist
+/tmp
+/out
 
-# Pasta de pacotes
-package-lock.json
-yarn.lock
-
-# Android
-android/.gradle
-android/app/build/
-android/build/
-android/app/src/main/assets/index.android.bundle
-android/app/src/main/res/raw/node_modules_assets_index.android.bundle
-
-# iOS
-ios/Pods/
-ios/build/
-ios/Podfile.lock
-
-# Gerados automaticamente
-*.iml
-*.hprof
-*.orig
-*.pyc
-*.pyo
-*.idea/
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
 *.sublime-workspace
 
-# VSCode
-.vscode/
-.vscode/settings.json
-.vscode/launch.json
-.vscode/tasks.json
-.vscode/typings
-
-# Teste
-__tests__/
-coverage/
-
-# Arquivos de cache
-.expo/
-.expo-shared/
-*.expo
-
-# Expo
-.expo/
-web-build/
-
-# Outras Configurações
+# Ambiente
 .env
 .env.local
 .env.*.local
+
+# Arquivos de cache
+.cache
+.next
+build/
+.cache-loader
+
+# Arquivos de pacotes
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Arquivos de teste
+coverage/
+
+# Arquivos de deploy
+*.pid
+*.seed
+*.pid.lock
+
+# Arquivos temporários e de backup
+*.bak
+*.tmp
+*.temp
+*.old
+*.orig
+
+# Arquivos de banco de dados SQLite
+*.sqlite
+*.sqlite3
+
+# Arquivos de configuração de Docker
+docker-compose.override.yml
+
+# Arquivos gerados automaticamente
+*.out
+*.tgz
+*.dmg
+*.exe
+*.dll
+*.so
+
+# Arquivos Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Arquivos Java
+*.class
+
+# Arquivos Ruby
+*.gem
+
+# Arquivos Go
+*.exe
+
+# Arquivos de configuração do SASS
+.sass-cache/
+
+# Arquivos de configuração do Typescript
+.tsbuildinfo
