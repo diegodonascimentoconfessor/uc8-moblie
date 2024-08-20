@@ -19,7 +19,7 @@ export default function App() {
 <SafeAreaView>
   <StatusBar/>
 <View style={styles.container}>
-  <Text style={styles.txt}>{count}</Text>
+  <Text style={styles.txt}>  {count}  </Text>
   <Button title = "somar" onPress={somar}/>
   <Button title= "diminuir" onPress={diminuir}/>
 
@@ -31,6 +31,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
+    flexDirection:"row",
     height:500,
    padding: 10,
     backgroundColor: '#fff',
@@ -40,6 +41,7 @@ const styles = StyleSheet.create({
   txt:{
     fontSize:40,
     marginBottom:20,
-    fontWeight:"bold"
+    fontWeight:"bold",
+    padding:25
   }
 });
