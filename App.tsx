@@ -34,7 +34,7 @@ const styles=  StyleSheet.create({
 
   },
   container:{
-    backgroundColor:"orange"
+    backgroundColor:"orange "
   },
   bola:{
     width: 90,

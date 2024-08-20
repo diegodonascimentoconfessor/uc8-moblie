@@ -1,93 +1,9 @@
-# Sistema operacional
-.DS_Store
-Thumbs.db
-
-# Arquivos de log
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # Dependências
 /node_modules
-/.pnp
-.pnp.js
 
-# Compilação e output
-/dist
-/tmp
-/out
 
-# IDEs e editores
-.vscode/
-.idea/
-*.swp
-*.swo
-*.sublime-project
-*.sublime-workspace
 
-# Ambiente
-.env
-.env.local
-.env.*.local
 
-# Arquivos de cache
-.cache
-.next
-build/
-.cache-loader
 
-# Arquivos de pacotes
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
 
-# Arquivos de teste
-coverage/
-
-# Arquivos de deploy
-*.pid
-*.seed
-*.pid.lock
-
-# Arquivos temporários e de backup
-*.bak
-*.tmp
-*.temp
-*.old
-*.orig
-
-# Arquivos de banco de dados SQLite
-*.sqlite
-*.sqlite3
-
-# Arquivos de configuração de Docker
-docker-compose.override.yml
-
-# Arquivos gerados automaticamente
-*.out
-*.tgz
-*.dmg
-*.exe
-*.dll
-*.so
-
-# Arquivos Python
-*.pyc
-*.pyo
-__pycache__/
-
-# Arquivos Java
-*.class
-
-# Arquivos Ruby
-*.gem
-
-# Arquivos Go
-*.exe
-
-# Arquivos de configuração do SASS
-.sass-cache/
-
-# Arquivos de configuração do Typescript
-.tsbuildinfo
